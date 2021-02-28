@@ -1,5 +1,4 @@
-/*
-two_sum in GoLang -- find the two numbers in a sorted array which add to a third number
+/*twoSum -- find the two numbers in a sorted array which add to a third number
 params:
 arr[] - sorted array of integers
 num - target integer
@@ -27,7 +26,11 @@ func main() {
 	fmt.Printf("Should be [-1 -1]")
 }
 
-// TwoSum -- Returns array position of two numbers which add to input
+/*TwoSum -- Returns array position of two numbers which add to input
+params:
+	arr []int:	Sorted array of integers
+	num int:	Target integer
+*/
 func TwoSum(arr []int, num int) []int {
 	var left, right int = 0, len(arr) - 1
 	ret := []int{}
