@@ -1,4 +1,4 @@
-/*SquareSort - square values in sorted array of integers; return sorted array */
+/*squaresort - square values in sorted array of integers; return sorted array of integers */
 
 package main
 
@@ -28,7 +28,7 @@ params:
 returns:
 	ret []int - sorted array of integers
 */
-func SquareSort(arr []int) []int {
+func squareSort(arr []int) []int {
 	var left, right int = 0, 1
 	var imin, imax bool = false, false
 	ret := []int{}
